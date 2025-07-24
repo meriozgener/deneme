@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eğitim Portalı</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Eğitim Portalı</span>
+      </div>
+      <div class="nav-menu">
+        <a href="#home" class="nav-link active">Ana Sayfa</a>
+        <a href="#courses" class="nav-link">Dersler</a>
+        <a href="#tests" class="nav-link">Testler</a>
+        <a href="#teachers" class="nav-link">Öğretmenler</a>
+        <a href="#login" class="nav-link">Giriş</a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Ana Sayfa -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Lise Türkçe Eğitim Platformu</h1>
+        <p>Türkçe, Türk Dili ve Edebiyatı, Rehberlik dersleri için özel platform</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Öğrenci Girişi</button>
+          <button class="btn btn-secondary">Öğretmen Girişi</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Özellikler -->
+    <section class="features">
+      <div class="container">
+        <h2>Platform Özellikleri</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-book-open"></i>
+            <h3>İnteraktif Dersler</h3>
+            <p>Konu anlatımları ve detaylı açıklamalar</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-clipboard-check"></i>
+            <h3>Online Testler</h3>
+            <p>Konu bazlı değerlendirme testleri</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-gamepad"></i>
+            <h3>Eğlenceli Oyunlar</h3>
+            <p>Kahoot benzeri etkileşimli testler</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-file-pdf"></i>
+            <h3>PDF Entegrasyonu</h3>
+            <p>Dökümanlar sistem içinde açılır</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dersler Bölümü -->
+    <section id="courses" class="courses-section">
+      <div class="container">
+        <h2>Dersler</h2>
+        <div class="courses-grid">
+          <div class="course-card">
+            <div class="course-image">
+              <i class="fas fa-language"></i>
+            </div>
+            <div class="course-content">
+              <h3>Türkçe</h3>
+              <p>Dil bilgisi, kompozisyon ve metin analizi</p>
+              <button class="btn btn-outline">Derse Git</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-image">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="course-content">
+              <h3>Türk Dili ve Edebiyatı</h3>
+              <p>Edebiyat tarihi, şiir ve roman analizi</p>
+              <button class="btn btn-outline">Derse Git</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-image">
+              <i class="fas fa-compass"></i>
+            </div>
+            <div class="course-content">
+              <h3>Rehberlik</h3>
+              <p>Kişisel gelişim ve meslek rehberliği</p>
+              <button class="btn btn-outline">Derse Git</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Test Bölümü -->
+    <section id="tests" class="tests-section">
+      <div class="container">
+        <h2>Testler ve Değerlendirmeler</h2>
+        <div class="test-types">
+          <div class="test-card">
+            <i class="fas fa-clock"></i>
+            <h3>Hızlı Test</h3>
+            <p>10 soruluk kısa testler</p>
+            <button class="btn btn-primary">Teste Başla</button>
+          </div>
+          <div class="test-card">
+            <i class="fas fa-users"></i>
+            <h3>Grup Testi</h3>
+            <p>Kahoot benzeri etkileşimli test</p>
+            <button class="btn btn-primary">Katıl</button>
+          </div>
+          <div class="test-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Kapsamlı Test</h3>
+            <p>Detaylı değerlendirme testi</p>
+            <button class="btn btn-primary">Başla</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Öğretmenler Bölümü -->
+    <section id="teachers" class="teachers-section">
+      <div class="container">
+        <h2>Öğretmenler İçin</h2>
+        <div class="teacher-features">
+          <div class="teacher-card">
+            <i class="fas fa-plus-circle"></i>
+            <h3>Test Oluştur</h3>
+            <p>Kendi testlerinizi oluşturun</p>
+          </div>
+          <div class="teacher-card">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Sonuçları İzle</h3>
+            <p>Öğrenci performansını takip edin</p>
+          </div>
+          <div class="teacher-card">
+            <i class="fas fa-upload"></i>
+            <h3>İçerik Yükle</h3>
+            <p>PDF ve dökümanları paylaşın</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal - PDF Viewer -->
+  <div id="pdfModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe id="pdfViewer" src="" width="100%" height="600px"></iframe>
+    </div>
+  </div>
+
+  <!-- Modal - Test -->
+  <div id="testModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="testContainer">
+        <!-- Test içeriği buraya yüklenecek -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
